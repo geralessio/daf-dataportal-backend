@@ -26,6 +26,9 @@ Al momento vengono esposte delle API di monitoriggio di dati.gov.it. I dati sono
 ### Per lanciare il servizio ###
 
 ```
+git clone git@github.com:italia/dati.git
+cd common
+sbt publishLocal
 git clone git@github.com:italia/dati-frontendserver.git
 sbt compile
 sbt run
